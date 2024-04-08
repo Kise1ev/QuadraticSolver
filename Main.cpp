@@ -1,9 +1,9 @@
 ﻿#include "QuadraticSolver.h"
 
 int main() {
-	int a;
-	int b;
-	int c;
+	int a = 0;
+	int b = 0;
+	int c = 0;
 
 	cout << "Welcome to the Quadratic Equation Solver!" << endl << endl;
 	cout << "Please enter the values for your equation below..." << endl;
