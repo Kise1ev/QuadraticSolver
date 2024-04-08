@@ -25,6 +25,7 @@ int main() {
 
 	if (a == 0) {
 		cout << endl << "Divide by zero error." << endl << endl;
+		system("pause");
 		return 1;
 	}
 
@@ -36,9 +37,8 @@ int main() {
 		root2 = (-1 * b - sqrt(discriminant)) / (2 * a);
 	}
 
-	if (discriminant == 0) {
+	if (discriminant == 0) 
 		root1 = root2 = (-abs(b)) / (2 * a);
-	}
 
 	if (discriminant < 0) {
 		discriminant = -abs(discriminant);
